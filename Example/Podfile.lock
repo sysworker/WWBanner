@@ -1,0 +1,34 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - SDWebImage (5.12.2):
+    - SDWebImage/Core (= 5.12.2)
+  - SDWebImage/Core (5.12.2)
+  - WWBanner (0.1.0):
+    - SDWebImage
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - SDWebImage
+  - WWBanner (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+    - SDWebImage
+
+EXTERNAL SOURCES:
+  WWBanner:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  SDWebImage: 240e5c12b592fb1268c1d03b8c90d90e8c2ffe82
+  WWBanner: e4e8d73574df0d10fea47ee5d7f29e5148680949
+
+PODFILE CHECKSUM: f307f0889f6df01275a14575213c4ce3a1dad562
+
+COCOAPODS: 1.10.1

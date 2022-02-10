@@ -1,0 +1,14 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'WWBanner_Example' do
+  pod 'WWBanner', :path => '../'
+  pod 'SDWebImage'
+
+  target 'WWBanner_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end

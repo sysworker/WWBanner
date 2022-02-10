@@ -1,0 +1,12 @@
+
+platform :ios, '10.0'
+
+target 'WWBanner' do
+
+#忽略警告
+inhibit_all_warnings!
+
+# https://github.com/rs/SDWebImage
+pod 'SDWebImage'
+
+end

@@ -87,7 +87,7 @@
 		943127A31A1E96242E0D8AA6 /* Pods-WWBanner_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WWBanner_Example.release.xcconfig"; path = "Target Support Files/Pods-WWBanner_Example/Pods-WWBanner_Example.release.xcconfig"; sourceTree = "<group>"; };
 		9E6A9ACA63E3FF49541583C2 /* Pods_WWBanner_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WWBanner_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6E8170A8441ACD47D021658 /* Pods-WWBanner_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WWBanner_Example.debug.xcconfig"; path = "Target Support Files/Pods-WWBanner_Example/Pods-WWBanner_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		F9C1D56316A1153515C72382 /* WWBanner.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = WWBanner.podspec; path = ../WWBanner.podspec; sourceTree = "<group>"; };
+		F9C1D56316A1153515C72382 /* WWBanner.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = WWBanner.podspec; path = ../WWBanner.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,7 +144,6 @@
 				4179B052BAC0CB9AC3A1EA23 /* Pods-WWBanner_Tests.debug.xcconfig */,
 				89B361973804E9A43CAB58DB /* Pods-WWBanner_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};

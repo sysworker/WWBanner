@@ -7,14 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1D10B66427B367BC00F1334C /* WWBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D10B65827B367BB00F1334C /* WWBannerView.m */; };
-		1D10B66527B367BC00F1334C /* WWBannerFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D10B65A27B367BC00F1334C /* WWBannerFlowLayout.m */; };
-		1D10B66627B367BC00F1334C /* WWBannerControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D10B65D27B367BC00F1334C /* WWBannerControl.m */; };
-		1D10B66727B367BC00F1334C /* WWBannerOverLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D10B66027B367BC00F1334C /* WWBannerOverLayout.m */; };
-		1D10B66827B367BC00F1334C /* WWBannerParam.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D10B66127B367BC00F1334C /* WWBannerParam.m */; };
-		1D10B66927B367BC00F1334C /* WWBannerFadeLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D10B66227B367BC00F1334C /* WWBannerFadeLayout.m */; };
 		1D10B66C27B36CD800F1334C /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 1D10B66B27B36CD800F1334C /* Podfile */; };
 		1D10B66F27B516A900F1334C /* WW.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D10B66E27B516A900F1334C /* WW.m */; };
+		1D5953272881449F007F9FE4 /* WWBannerControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D5953192881449E007F9FE4 /* WWBannerControl.m */; };
+		1D5953282881449F007F9FE4 /* WWBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D59531A2881449E007F9FE4 /* WWBannerView.m */; };
+		1D5953292881449F007F9FE4 /* WWBannerFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D59531B2881449E007F9FE4 /* WWBannerFlowLayout.m */; };
+		1D59532A2881449F007F9FE4 /* WWBannerOverLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D59531D2881449E007F9FE4 /* WWBannerOverLayout.m */; };
+		1D59532B2881449F007F9FE4 /* WWBannerParam.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D5953202881449E007F9FE4 /* WWBannerParam.m */; };
+		1D59532C2881449F007F9FE4 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D5953212881449E007F9FE4 /* ReplaceMe.m */; };
+		1D59532D2881449F007F9FE4 /* WWBannerFadeLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D5953242881449F007F9FE4 /* WWBannerFadeLayout.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -45,22 +46,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1D10B65727B367BB00F1334C /* WWBannerParam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WWBannerParam.h; sourceTree = "<group>"; };
-		1D10B65827B367BB00F1334C /* WWBannerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WWBannerView.m; sourceTree = "<group>"; };
-		1D10B65927B367BC00F1334C /* WWBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WWBannerView.h; sourceTree = "<group>"; };
-		1D10B65A27B367BC00F1334C /* WWBannerFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WWBannerFlowLayout.m; sourceTree = "<group>"; };
-		1D10B65B27B367BC00F1334C /* WWBannerFadeLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WWBannerFadeLayout.h; sourceTree = "<group>"; };
-		1D10B65C27B367BC00F1334C /* WWBannerConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WWBannerConfig.h; sourceTree = "<group>"; };
-		1D10B65D27B367BC00F1334C /* WWBannerControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WWBannerControl.m; sourceTree = "<group>"; };
-		1D10B65E27B367BC00F1334C /* WWBannerFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WWBannerFlowLayout.h; sourceTree = "<group>"; };
-		1D10B65F27B367BC00F1334C /* WWBannerControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WWBannerControl.h; sourceTree = "<group>"; };
-		1D10B66027B367BC00F1334C /* WWBannerOverLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WWBannerOverLayout.m; sourceTree = "<group>"; };
-		1D10B66127B367BC00F1334C /* WWBannerParam.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WWBannerParam.m; sourceTree = "<group>"; };
-		1D10B66227B367BC00F1334C /* WWBannerFadeLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WWBannerFadeLayout.m; sourceTree = "<group>"; };
-		1D10B66327B367BC00F1334C /* WWBannerOverLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WWBannerOverLayout.h; sourceTree = "<group>"; };
 		1D10B66B27B36CD800F1334C /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 		1D10B66D27B516A900F1334C /* WW.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WW.h; sourceTree = "<group>"; };
 		1D10B66E27B516A900F1334C /* WW.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WW.m; sourceTree = "<group>"; };
+		1D5953192881449E007F9FE4 /* WWBannerControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WWBannerControl.m; path = ../WWBanner/Classes/WWBannerControl.m; sourceTree = "<group>"; };
+		1D59531A2881449E007F9FE4 /* WWBannerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WWBannerView.m; path = ../WWBanner/Classes/WWBannerView.m; sourceTree = "<group>"; };
+		1D59531B2881449E007F9FE4 /* WWBannerFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WWBannerFlowLayout.m; path = ../WWBanner/Classes/WWBannerFlowLayout.m; sourceTree = "<group>"; };
+		1D59531C2881449E007F9FE4 /* WWBannerConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WWBannerConfig.h; path = ../WWBanner/Classes/WWBannerConfig.h; sourceTree = "<group>"; };
+		1D59531D2881449E007F9FE4 /* WWBannerOverLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WWBannerOverLayout.m; path = ../WWBanner/Classes/WWBannerOverLayout.m; sourceTree = "<group>"; };
+		1D59531E2881449E007F9FE4 /* WWBannerControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WWBannerControl.h; path = ../WWBanner/Classes/WWBannerControl.h; sourceTree = "<group>"; };
+		1D59531F2881449E007F9FE4 /* WWBannerFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WWBannerFlowLayout.h; path = ../WWBanner/Classes/WWBannerFlowLayout.h; sourceTree = "<group>"; };
+		1D5953202881449E007F9FE4 /* WWBannerParam.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WWBannerParam.m; path = ../WWBanner/Classes/WWBannerParam.m; sourceTree = "<group>"; };
+		1D5953212881449E007F9FE4 /* ReplaceMe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = ../WWBanner/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		1D5953222881449E007F9FE4 /* WWBannerOverLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WWBannerOverLayout.h; path = ../WWBanner/Classes/WWBannerOverLayout.h; sourceTree = "<group>"; };
+		1D5953232881449F007F9FE4 /* WWBannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WWBannerView.h; path = ../WWBanner/Classes/WWBannerView.h; sourceTree = "<group>"; };
+		1D5953242881449F007F9FE4 /* WWBannerFadeLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WWBannerFadeLayout.m; path = ../WWBanner/Classes/WWBannerFadeLayout.m; sourceTree = "<group>"; };
+		1D5953252881449F007F9FE4 /* WWBannerFadeLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WWBannerFadeLayout.h; path = ../WWBanner/Classes/WWBannerFadeLayout.h; sourceTree = "<group>"; };
+		1D5953262881449F007F9FE4 /* WWBannerParam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WWBannerParam.h; path = ../WWBanner/Classes/WWBannerParam.h; sourceTree = "<group>"; };
 		3D292E9B7B6586958D205664 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		4179B052BAC0CB9AC3A1EA23 /* Pods-WWBanner_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WWBanner_Tests.debug.xcconfig"; path = "Target Support Files/Pods-WWBanner_Tests/Pods-WWBanner_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		5C94E26EA862F8A5C027531E /* Pods_WWBanner_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WWBanner_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -122,21 +124,22 @@
 		1D10B64327B3621100F1334C /* Banner */ = {
 			isa = PBXGroup;
 			children = (
-				1D10B65C27B367BC00F1334C /* WWBannerConfig.h */,
-				1D10B65F27B367BC00F1334C /* WWBannerControl.h */,
-				1D10B65D27B367BC00F1334C /* WWBannerControl.m */,
-				1D10B65B27B367BC00F1334C /* WWBannerFadeLayout.h */,
-				1D10B66227B367BC00F1334C /* WWBannerFadeLayout.m */,
-				1D10B65E27B367BC00F1334C /* WWBannerFlowLayout.h */,
-				1D10B65A27B367BC00F1334C /* WWBannerFlowLayout.m */,
-				1D10B66327B367BC00F1334C /* WWBannerOverLayout.h */,
-				1D10B66027B367BC00F1334C /* WWBannerOverLayout.m */,
-				1D10B65727B367BB00F1334C /* WWBannerParam.h */,
-				1D10B66127B367BC00F1334C /* WWBannerParam.m */,
-				1D10B65927B367BC00F1334C /* WWBannerView.h */,
-				1D10B65827B367BB00F1334C /* WWBannerView.m */,
 				1D10B66D27B516A900F1334C /* WW.h */,
 				1D10B66E27B516A900F1334C /* WW.m */,
+				1D5953212881449E007F9FE4 /* ReplaceMe.m */,
+				1D59531C2881449E007F9FE4 /* WWBannerConfig.h */,
+				1D59531E2881449E007F9FE4 /* WWBannerControl.h */,
+				1D5953192881449E007F9FE4 /* WWBannerControl.m */,
+				1D5953252881449F007F9FE4 /* WWBannerFadeLayout.h */,
+				1D5953242881449F007F9FE4 /* WWBannerFadeLayout.m */,
+				1D59531F2881449E007F9FE4 /* WWBannerFlowLayout.h */,
+				1D59531B2881449E007F9FE4 /* WWBannerFlowLayout.m */,
+				1D5953222881449E007F9FE4 /* WWBannerOverLayout.h */,
+				1D59531D2881449E007F9FE4 /* WWBannerOverLayout.m */,
+				1D5953262881449F007F9FE4 /* WWBannerParam.h */,
+				1D5953202881449E007F9FE4 /* WWBannerParam.m */,
+				1D5953232881449F007F9FE4 /* WWBannerView.h */,
+				1D59531A2881449E007F9FE4 /* WWBannerView.m */,
 			);
 			name = Banner;
 			sourceTree = "<group>";
@@ -437,16 +440,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1D10B66427B367BC00F1334C /* WWBannerView.m in Sources */,
+				1D59532D2881449F007F9FE4 /* WWBannerFadeLayout.m in Sources */,
+				1D5953292881449F007F9FE4 /* WWBannerFlowLayout.m in Sources */,
+				1D5953272881449F007F9FE4 /* WWBannerControl.m in Sources */,
 				6003F59E195388D20070C39A /* WWAppDelegate.m in Sources */,
-				1D10B66727B367BC00F1334C /* WWBannerOverLayout.m in Sources */,
+				1D59532B2881449F007F9FE4 /* WWBannerParam.m in Sources */,
 				6003F5A7195388D20070C39A /* WWViewController.m in Sources */,
-				1D10B66527B367BC00F1334C /* WWBannerFlowLayout.m in Sources */,
 				1D10B66F27B516A900F1334C /* WW.m in Sources */,
-				1D10B66927B367BC00F1334C /* WWBannerFadeLayout.m in Sources */,
+				1D59532C2881449F007F9FE4 /* ReplaceMe.m in Sources */,
+				1D5953282881449F007F9FE4 /* WWBannerView.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
-				1D10B66627B367BC00F1334C /* WWBannerControl.m in Sources */,
-				1D10B66827B367BC00F1334C /* WWBannerParam.m in Sources */,
+				1D59532A2881449F007F9FE4 /* WWBannerOverLayout.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -22,7 +22,7 @@ pod 'WWBanner'
 
 ## Author
 
-sysworker@163.com, sysworker@163.com
+sysworker@163.com
 
 ## License
 

@@ -1,19 +1,19 @@
 {
   "name": "WWBanner",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": "A short description of WWBanner.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/sysworker@163.com/WWBanner",
+  "homepage": "https://github.com/sysworker/WWBanner",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "sysworker@163.com": "sysworker@163.com"
+    "sysworker": "sysworker@163.com"
   },
   "source": {
-    "git": "https://github.com/sysworker@163.com/WWBanner.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/sysworker/WWBanner.git",
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "9.0"

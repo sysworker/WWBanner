@@ -10,6 +10,13 @@
 #endif
 #endif
 
+#import "WWBannerConfig.h"
+#import "WWBannerControl.h"
+#import "WWBannerFadeLayout.h"
+#import "WWBannerFlowLayout.h"
+#import "WWBannerOverLayout.h"
+#import "WWBannerParam.h"
+#import "WWBannerView.h"
 
 FOUNDATION_EXPORT double WWBannerVersionNumber;
 FOUNDATION_EXPORT const unsigned char WWBannerVersionString[];

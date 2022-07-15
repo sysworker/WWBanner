@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'WWBanner'
   s.version          = '0.1.1'
-  s.summary          = 'A short description of WWBanner.'
+  s.summary          = '一个支持卡片轮播的banner，一屏显示多个cell'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?

@@ -27,10 +27,15 @@
 
 #define BannerColor(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
 
+///一个宏，第一个参数为类型，第二个为类对象，第三个为变量类型，第四个为变量名称
+///然后定义变量
+///新增set方法
 #define WWBannerPropStatementAndPropSetFuncStatement(propertyModifier,className, propertyPointerType, propertyName)           \
 @property(nonatomic,propertyModifier)propertyPointerType  propertyName;                                                 \
-- (className * (^) (propertyPointerType propertyName)) propertyName##Set;
+- (className * (^) (propertyPointerType propertyName))propertyName##Set;
 
+///这是一个宏定义，第一个参数为返回的类型，第二个为变量类型，第三个为变量名称
+///新增set方法
 #define WWBannerPropSetFuncImplementation(className, propertyPointerType, propertyName)                                       \
 - (className * (^) (propertyPointerType propertyName))propertyName##Set{                                                \
 return ^(propertyPointerType propertyName) {                                                                            \

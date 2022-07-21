@@ -121,6 +121,10 @@
         self.param.wAutoScroll = NO;
     }
     
+    if (CGRectEqualToRect(self.param.wFrame, CGRectZero)) {
+        self.param.wFrame = CGRectMake(0, 0, self.frame.size.width, self.frame.size.height);
+    }
+    
     if (self.param.wMarquee) {
         self.param.wAutoScroll = YES;
         self.param.wHideBannerControl = YES;

@@ -33,6 +33,9 @@ NS_ASSUME_NONNULL_BEGIN
  */
 - (void)updateUI;
 
+/// 使用xib时候调用这个方法
+/// 需要设置param
+- (void)setUp;
 
 /**
 *  手动调用滚动

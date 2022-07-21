@@ -10,6 +10,7 @@
 #import "WWBannerView.h"
 
 @interface WWViewController ()
+@property (weak, nonatomic) IBOutlet WWBannerView *WWBannerBottonView;
 
 @end
 
@@ -19,8 +20,9 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
     NSMutableArray * img = [NSMutableArray arrayWithObjects:@"11",@"22",@"33",@"44",@"55", nil];
-    WWBannerParam * param = BannerParam().wFrameSet(CGRectMake(0, 80, 300, 120))
+    WWBannerParam * param = BannerParam()
     ///开启循环滚动
         .wRepeatSet(YES)
     //开启自动滚动
@@ -33,16 +35,29 @@
         .wCustomImageRadioSet(15)
     ///隐藏pageControl
         .wHideBannerControlSet(YES)
+    ///设置间距
+        .wLineSpacingSet(8)
     ///数据源
         .wDataSet(img);
-    {//初始化方法一
-        WWBannerView *bannerView = [[WWBannerView alloc] initConfigureWithModel:param withView:self.view];
+    
+    {
+        ///xib布局
+        self.WWBannerBottonView.param = param;
+        [self.WWBannerBottonView layoutIfNeeded];
+        [self.WWBannerBottonView setUp];
+        [self.WWBannerBottonView updateUI];
+    }
 
+    {//初始化方法一
+//        WWBannerView *bannerView = [[WWBannerView alloc] initConfigureWithModel:param withView:self.view];
+        param.wFrameSet(CGRectMake(0, 80, 300, 120));
+        [[WWBannerView alloc] initConfigureWithModel:param withView:self.view];
     }
     //初始化方法二
     {
-        UIView * v = [[UIView alloc] initWithFrame:CGRectMake(20, 150, 300, 120)];
+        UIView * v = [[UIView alloc] initWithFrame:CGRectMake(20, 220, 300, 120)];
         [self.view addSubview:v];
+        param.wFrameSet(CGRectMake(0, 0, 300, 120));
         WWBannerView *bannerView2 = [[WWBannerView alloc] initConfigureWithModel:param];
         [v addSubview:bannerView2];
     }

@@ -98,7 +98,7 @@ WWBannerParam * BannerParam(void){
         _wScreenScale = 1;
         _wMarqueeTextColor = [UIColor redColor];
         _wEffectHeight = 1;
-        _wDataParamIconName = @"icon";
+        _wDataParamIconName = @"bannerIcon";
         _wBannerControlSelectMargin = 3;
         _wMarqueeRate = 0.5;
         _wCardOverLapCount = 4;

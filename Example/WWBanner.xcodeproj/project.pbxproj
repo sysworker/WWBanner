@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		1D10B66C27B36CD800F1334C /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 1D10B66B27B36CD800F1334C /* Podfile */; };
 		1D10B66F27B516A900F1334C /* WW.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D10B66E27B516A900F1334C /* WW.m */; };
+		1D3448B2288931FB00709EFE /* Assets in Resources */ = {isa = PBXBuildFile; fileRef = 1D3448B1288931FB00709EFE /* Assets */; };
 		1D5953272881449F007F9FE4 /* WWBannerControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D5953192881449E007F9FE4 /* WWBannerControl.m */; };
 		1D5953282881449F007F9FE4 /* WWBannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D59531A2881449E007F9FE4 /* WWBannerView.m */; };
 		1D5953292881449F007F9FE4 /* WWBannerFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D59531B2881449E007F9FE4 /* WWBannerFlowLayout.m */; };
@@ -49,6 +50,7 @@
 		1D10B66B27B36CD800F1334C /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
 		1D10B66D27B516A900F1334C /* WW.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WW.h; sourceTree = "<group>"; };
 		1D10B66E27B516A900F1334C /* WW.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WW.m; sourceTree = "<group>"; };
+		1D3448B1288931FB00709EFE /* Assets */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Assets; path = ../WWBanner/Assets; sourceTree = "<group>"; };
 		1D5953192881449E007F9FE4 /* WWBannerControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WWBannerControl.m; path = ../WWBanner/Classes/WWBannerControl.m; sourceTree = "<group>"; };
 		1D59531A2881449E007F9FE4 /* WWBannerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WWBannerView.m; path = ../WWBanner/Classes/WWBannerView.m; sourceTree = "<group>"; };
 		1D59531B2881449E007F9FE4 /* WWBannerFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WWBannerFlowLayout.m; path = ../WWBanner/Classes/WWBannerFlowLayout.m; sourceTree = "<group>"; };
@@ -124,6 +126,7 @@
 		1D10B64327B3621100F1334C /* Banner */ = {
 			isa = PBXGroup;
 			children = (
+				1D3448B1288931FB00709EFE /* Assets */,
 				1D10B66D27B516A900F1334C /* WW.h */,
 				1D10B66E27B516A900F1334C /* WW.m */,
 				1D5953212881449E007F9FE4 /* ReplaceMe.m */,
@@ -333,6 +336,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1D10B66C27B36CD800F1334C /* Podfile in Resources */,
+				1D3448B2288931FB00709EFE /* Assets in Resources */,
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,

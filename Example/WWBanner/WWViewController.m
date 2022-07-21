@@ -49,9 +49,11 @@
     }
 
     {//初始化方法一
-//        WWBannerView *bannerView = [[WWBannerView alloc] initConfigureWithModel:param withView:self.view];
-        param.wFrameSet(CGRectMake(0, 80, 300, 120));
-        [[WWBannerView alloc] initConfigureWithModel:param withView:self.view];
+        param.wFrameSet(CGRectMake((BannerWitdh-120)/2, 80, 120, 120));
+        
+        WWBannerParam * param = BannerParam().wFrameSet(CGRectMake((BannerWitdh-230)/2, 40, 230, 230)).wHideBannerControlSet(YES).wScaleSet(YES).wRepeatSet(YES).wAutoScrollSet(YES).wContentModeSet(UIViewContentModeScaleToFill).wCustomImageRadioSet(50).wDataSet(img).wItemSizeSet(CGSizeMake(100, 100)).wScaleFactorSet(1).wLineSpacingSet(-6).wCanFingerSlidingSet(YES).wZindexSet(YES).wAutoScrollSecondSet(1.5).wDataParamIconNameSet(@"bannerIcon");
+        WWBannerView *bannerView = [[WWBannerView alloc] initConfigureWithModel:param withView:self.view];
+        
     }
     //初始化方法二
     {

@@ -1,7 +1,15 @@
-# 使用详情
-####加载本地图片
+
+## Example
+    ### 使用详情
+    
+    ![image](eg1png.png)
+
+
+    ####加载本地图片
     NSMutableArray * img = [NSMutableArray arrayWithObjects:@"11",@"22",@"33",@"44",@"55", nil];
+    
     WWBannerParam * param = BannerParam().wFrameSet(CGRectMake(0, 80, 300, 120))
+    
     ///开启循环滚动
         .wRepeatSet(YES)
     //开启自动滚动
@@ -17,25 +25,25 @@
     ///数据源
         .wDataSet(img);
         
+    {
+        ///xib布局,不需初始化，直接设置配置文件
+        self.bannerView.param = param;
+        //更新xib布局试图大小
+        [self.bannerView layoutIfNeeded];
+        //初始化banner内容
+        [self.WWBannerBottonView setUp];
+        ///更新布局
+        [self.WWBannerBottonView updateUI];
+    }
         
-    {//初始化方法一
+    {//初始化方法
         WWBannerView *bannerView = [[WWBannerView alloc] initConfigureWithModel:param withView:self.view];
     }
-    //初始化方法二
-    {
-        UIView * v = [[UIView alloc] initWithFrame:CGRectMake(20, 150, 300, 120)];
-        [self.view addSubview:v];
-        WWBannerView *bannerView2 = [[WWBannerView alloc] initConfigureWithModel:param];
-        [v addSubview:bannerView2];
-    }
 
-数据变动时候执行 resetCollection，进行刷新
-
-## Example
-
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
-
+    数据变动时候执行[self.bannerView updateUI]，进行刷新
+  
 ## Requirements
+  依赖SDWebImage 
 
 ## Installation
 
@@ -44,14 +52,14 @@ it, simply add the following line to your Podfile:
 
 ```ruby
 pod 'WWBanner'
-```
-
+```  
+run `pod install`
 ## Author
 
 sysworker@163.com
 
 ## License
-需要一起共同完善这个app需要的授权文件
+需要一起共同完善这个轮子，需要授权联系邮件
 
 WWBanner is available under the MIT license. See the LICENSE file for more info.
 

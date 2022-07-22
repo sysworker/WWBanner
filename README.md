@@ -2,7 +2,7 @@
 ## Example
     ### 使用详情
     
-    ![image](eg1png.png)
+    ![效果图](https://github.com/sysworker/WWBanner/blob/main/WWBanner/Assets/eg1png.png)
 
 
     ####加载本地图片

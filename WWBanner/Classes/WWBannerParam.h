@@ -12,7 +12,7 @@ NS_ASSUME_NONNULL_BEGIN
 @interface WWBannerParam : NSObject
 /* =========================================Attributes==========================================*/
 
-//布局方式 frame  必传
+//布局方式 frame  如需单独设置banner内容的大小
 WWBannerPropStatementAndPropSetFuncStatement(assign, WWBannerParam, CGRect,               wFrame)
 //数据源 必传
 WWBannerPropStatementAndPropSetFuncStatement(strong, WWBannerParam, NSArray*,             wData)

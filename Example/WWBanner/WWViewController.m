@@ -181,6 +181,7 @@
          */
         
         ///xib布局
+        param.wHideBannerControlSet(NO).wBannerControlImageSet(@"icon_select_0").wBannerControlSelectImageSet(@"icon_select_1").wBannerControlImageSizeSet(CGSizeMake(20, 20)).wBannerControlSelectImageSizeSet(CGSizeMake(22, 22)).wPageControlFrameSet(CGRectMake(0, 100, 60, 22));
         self.WWBannerBottonView.param = param;
         [self.WWBannerBottonView layoutIfNeeded];
         [self.WWBannerBottonView setUp];

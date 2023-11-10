@@ -69,7 +69,7 @@
 
 
 - (void)resetCollection{
-    self.bannerControl.frame = CGRectMake((self.bounds.size.width - 60)/2 , self.bounds.size.height - 30,60, 30);
+    self.bannerControl.frame = self.param.wPageControlFrame;
     self.bannerControl.numberOfPages = self.data.count;
     self.bannerControl.hidden = self.param.wHideBannerControl;
     if (self.data.count == 1) {
@@ -216,7 +216,7 @@
         self.myCollectionV.decelerationRate = UIScrollViewDecelerationRateNormal;
     }
     
-    self.bannerControl = [[WWBannerControl alloc]initWithFrame:CGRectMake((self.bounds.size.width - 60)/2 , self.bounds.size.height - 30,60, 30) WithModel:self.param];
+    self.bannerControl = [[WWBannerControl alloc]initWithFrame:self.param.wPageControlFrame WithModel:self.param];
     [self addSubview:self.bannerControl];
 
     self.bgImgView = [UIImageView new];
@@ -628,7 +628,10 @@
 
 - (WWBannerControl *)bannerControl{
     if (!_bannerControl) {
-        _bannerControl = [[WWBannerControl alloc]initWithFrame:CGRectZero WithModel:_param];
+        if (CGRectEqualToRect(self.param.wPageControlFrame, CGRectZero)) {
+            self.param.wPageControlFrame = CGRectMake((self.bounds.size.width - 60)/2 , self.bounds.size.height - 30,60, 30);
+        }
+        _bannerControl = [[WWBannerControl alloc]initWithFrame:self.param.wPageControlFrame WithModel:_param];
     }
     return _bannerControl;
 }

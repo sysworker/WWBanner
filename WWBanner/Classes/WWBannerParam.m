@@ -87,6 +87,10 @@ WWBannerPropSetFuncImplementation(WWBannerParam, BannerCenterClickBlock,        
 WWBannerPropSetFuncImplementation(WWBannerParam, BannerScrollBlock,             wEventDidScroll)
 
 #pragma mark - 圆点设置
+///布局方式设置page位置
+WWBannerPropSetFuncImplementation(WWBannerParam, CGRect,                        wPageControlFrame)
+///PageControl的位置 default BannerControlCenter
+WWBannerPropSetFuncImplementation(WWBannerParam, BannerControlPosition,         wBannerControlPosition)
 ///系统的圆点颜色  default  ffffff
 WWBannerPropSetFuncImplementation(WWBannerParam, UIColor*,                      wBannerControlColor)
 ///系统的圆点选中颜色  default  orange
@@ -111,8 +115,6 @@ WWBannerPropSetFuncImplementation(WWBannerParam, CGFloat,                       
 WWBannerPropSetFuncImplementation(WWBannerParam, UIEdgeInsets,                  wSectionInset)
 ///滚动减速时间 default UIScrollViewDecelerationRateFast
 WWBannerPropSetFuncImplementation(WWBannerParam, UIScrollViewDecelerationRate,  wDecelerationRate)
-///ageControl的位置 default BannerControlCenter
-WWBannerPropSetFuncImplementation(WWBannerParam, BannerControlPosition,         wBannerControlPosition)
 ///分页控件距离轮播图的底部间距（在默认间距基础上）的偏移量
 WWBannerPropSetFuncImplementation(WWBannerParam, CGFloat,wBannerControlBottomOff)
 ///跑马灯文字颜色  default  red

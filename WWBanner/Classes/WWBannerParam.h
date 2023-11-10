@@ -97,6 +97,9 @@ WWBannerPropStatementAndPropSetFuncStatement(copy,   WWBannerParam, NSString*,  
 WWBannerPropStatementAndPropSetFuncStatement(strong, WWBannerParam, id,                   wMyCellClassNames)
 //自定义xib cell的类名 自定义视图必传 不然会crash
 WWBannerPropStatementAndPropSetFuncStatement(strong, WWBannerParam, id,                   wXibCellClassNames)
+
+///布局方式设置page位置
+WWBannerPropStatementAndPropSetFuncStatement(assign, WWBannerParam, CGRect,                        wPageControlFrame)
 //系统的圆点颜色  default  ffffff
 WWBannerPropStatementAndPropSetFuncStatement(strong, WWBannerParam, UIColor*,             wBannerControlColor)
 //系统的圆点选中颜色  default  orange

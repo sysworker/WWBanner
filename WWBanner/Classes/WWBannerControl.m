@@ -141,7 +141,8 @@
         if (i == [self.subviews count]-1) {
             CGRect rect = self.frame;
             rect.size.width = CGRectGetMaxX(dot.frame);
-            rect.origin.x = (self.param.wFrame.size.width - rect.size.width)/2;
+//            rect.origin.x = (self.param.wFrame.size.width - rect.size.width)/2;
+            rect.origin.x = self.param.wPageControlFrame.origin.x;
             self.frame = rect;
         }
     }
